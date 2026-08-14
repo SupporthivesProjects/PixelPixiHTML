@@ -505,6 +505,10 @@
 .contact_div {
     padding: 56px 0 96px 0;
     margin-top: 145px;
+    background-image: url(../img/contact_bgt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contact_div h1 {
@@ -534,12 +538,14 @@
     /* 28.5px */
     margin-bottom: 56px;
 }
+
 .inner_cotact_t {
     display: flex;
     width: 100%;
     align-items: flex-start;
     gap: 96px;
 }
+
 .left_contact_t {
     display: flex;
     max-width: 520px;
@@ -549,9 +555,10 @@
     align-items: flex-start;
     gap: 32px;
     border-radius: var(--radius-l, 16px);
-background: var(--brand-ink, #141222);
+    background: var(--brand-ink, #141222);
 }
-.left_contact_t h3{
+
+.left_contact_t h3 {
     color: var(--brand-pink, #EE2A63);
 
     /* body / label */
@@ -559,29 +566,244 @@ background: var(--brand-ink, #141222);
     font-size: 11px;
     font-style: normal;
     font-weight: 800;
-    line-height: 120%; /* 13.2px */
+    line-height: 120%;
+    /* 13.2px */
     letter-spacing: 0.66px;
     align-self: stretch;
     margin-bottom: 12px;
 }
+
 .left_contact_t p {
     color: var(--base-white, #FFF);
 
-/* body/small */
-font-family: "Plus Jakarta Sans";
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 22.5px */
-align-self: stretch;
-margin-bottom: 4px;
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    align-self: stretch;
+    margin-bottom: 4px;
 }
+
 .right_contact_t {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
     flex: 1 0 0;
+}
+
+.single_line_formt {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.top_form_t {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.input_t {
+    display: flex;
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: var(--radius-s, 8px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+    width: 100%;
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+.input_t::placeholder,.textarea_t::placeholder {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.textarea_t {
+    width: 100%;
+    height: 129px !important;
+    min-height: 129px;
+
+    padding: 16px 20px;
+    box-sizing: border-box;
+
+    border-radius: var(--radius-s, 8px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+
+    /* resize: none; */
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.aggre_div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.aggre_div p {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 0px;
+}
+
+.aggre_div p span {
+    color: var(--brand-pink, #EE2A63);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+.t_wala:checked {
+    background-color: #EE2A63;
+    border-color: #EE2A63;
+}
+.custom-dropdown_t {
+    position: relative;
+    width: 100%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.dropdown-toggle-custom_t {
+    width: 100%;
+
+    display: flex;
+    padding: 16px 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+
+    border-radius: var(--radius-s, 8px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+
+    color: var(--brand-slate, #4C4A5C);
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    cursor: pointer;
+    outline: none;
+    text-align: left;
+
+    transition: border-color 0.2s ease;
+}
+
+.dropdown-arrow_t {
+    flex-shrink: 0;
+    margin-top: 7px;
+
+    transition: transform 0.25s ease;
+}
+
+.custom-dropdown_t.active .dropdown-arrow_t {
+    transform: rotate(180deg);
+}
+
+.dropdown-menu-custom_t {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+
+    width: 100%;
+
+    padding: 8px;
+
+    background: #fff;
+    border: 1px solid #ECE8F2;
+    border-radius: 8px;
+
+    box-shadow: 0 8px 24px rgba(20, 18, 34, 0.10);
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-5px);
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease,
+        visibility 0.2s ease;
+
+    z-index: 1000;
+}
+
+.custom-dropdown_t.active .dropdown-menu-custom_t {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-option_t {
+    padding: 12px;
+
+    color: #4C4A5C;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+
+    border-radius: 6px;
+    cursor: pointer;
+
+    transition: background 0.2s ease;
+}
+
+.dropdown-option_t:hover {
+    background: #F5F2F9;
+}
+
+.dropdown-option_t.selected {
+    background: #F5F2F9;
 }
 @media only screen and (max-width: 700px) {
     .mobile_nonet {
@@ -877,6 +1099,7 @@ margin-bottom: 4px;
         margin-bottom: 48px;
         align-self: stretch;
     }
+
     .inner_cotact_t {
         display: flex;
         flex-direction: column-reverse;
@@ -884,9 +1107,30 @@ margin-bottom: 4px;
         align-items: flex-start;
         gap: 40px;
     }
+
     .left_contact_t {
         padding: 24px;
-}
+        max-width: none;
+    }
+
+    .single_line_formt {
+        flex-direction: column;
+    }
+
+    .right_contact_t {
+        width: 100%;
+    }
+
+    .aggre_div {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        align-self: stretch;
+    }
+    .textarea_t {
+        height: 120px !important;
+        min-height: 120px;
+    }
 
 }
 

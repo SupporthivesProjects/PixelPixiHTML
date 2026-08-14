@@ -137,10 +137,56 @@
                            
                         </div>
                         <form class="right_contact_t">
-                            <div></div>
-                            <div class="aggre_div">
-                                
+                            <div class="top_form_t">
+                                <div class="single_line_formt" style="flex-direction: row;">
+                                    <input type="text" placeholder="First name" class="input_t">
+                                    <input type="text" placeholder="Email address" class="input_t">
+                                </div>
+                                <div class="single_line_formt">
+                                    <input type="text" placeholder="Phone number" class="input_t">
+                                    <div class="custom-dropdown_t">
+
+                                        <button type="button" class="dropdown-toggle-custom_t">
+                                            <span class="dropdown-selected_t">What is it about</span>
+                                    
+                                            <svg class="dropdown-arrow_t"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="12"
+                                                height="7"
+                                                viewBox="0 0 12 7"
+                                                fill="none">
+                                                <path d="M0.900391 0.900024L5.90039 5.90002L10.9004 0.900024"
+                                                    stroke="#141222"
+                                                    stroke-width="1.8"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    
+                                        <div class="dropdown-menu-custom_t">
+                                            <div class="dropdown-option_t">Option 1</div>
+                                            <div class="dropdown-option_t">Option 2</div>
+                                            <div class="dropdown-option_t">Option 3</div>
+                                            <div class="dropdown-option_t">Option 4</div>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <textarea class="textarea_t" placeholder="Enter your message"></textarea>
                             </div>
+                            <div class="aggre_div">
+                                <input class="form-check-input t_wala" type="checkbox" value="" id="checkDefault">
+                                    <p>I agree to the <span>Terms & Conditions</span> and the <span>Privacy Policy.</span></p>
+                            </div>
+                            <img src="./img/captcha_t.png" alt="" class="img-fluid">
+                            <button class="btn red_cart_buttont">
+                                Send message
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none">
+                                    <path d="M4 10H16M11 15L16 10L11 5" stroke="white" stroke-width="1.8"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -312,6 +358,48 @@
     <script>
         AOS.init();
     </script>
+    <script>
+        document.querySelectorAll('.custom-dropdown_t').forEach(dropdown => {
+        
+            const toggle = dropdown.querySelector('.dropdown-toggle-custom_t');
+            const selected = dropdown.querySelector('.dropdown-selected_t');
+            const options = dropdown.querySelectorAll('.dropdown-option_t');
+        
+            toggle.addEventListener('click', function (e) {
+                e.stopPropagation();
+        
+                document.querySelectorAll('.custom-dropdown_t').forEach(other => {
+                    if (other !== dropdown) {
+                        other.classList.remove('active');
+                    }
+                });
+        
+                dropdown.classList.toggle('active');
+            });
+        
+            options.forEach(option => {
+                option.addEventListener('click', function (e) {
+                    e.stopPropagation();
+        
+                    selected.textContent = this.textContent;
+        
+                    options.forEach(item => {
+                        item.classList.remove('selected');
+                    });
+        
+                    this.classList.add('selected');
+        
+                    dropdown.classList.remove('active');
+                });
+            });
+        });
+        
+        document.addEventListener('click', function () {
+            document.querySelectorAll('.custom-dropdown_t').forEach(dropdown => {
+                dropdown.classList.remove('active');
+            });
+        });
+        </script>
 </body>
 
 </html>
