@@ -1,0 +1,133 @@
+@media only screen and (max-device-width: 600px) {
+.login_section {
+    width: 100%;
+    margin-top: 92px;
+    display: flex;
+    align-items: center;
+    padding: 40px 25px;
+    background-image: url(../img/log.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login_card{
+    border-radius: var(--radius-l, 16px);
+border: 1px solid var(--brand-lilac, #ECE8F2);
+background: var(--base-white, #FFF);
+padding: 24px;
+
+}
+
+.login_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login_options {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.login_button {
+    width: 100%;
+    max-width: fit-content;
+    min-height: 53px;
+    padding: 16px 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 0;
+    border-radius: 8px;
+    background: var(--login-pink);
+    color: var(--login-white);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+/* Register */
+
+
+.regi_section {
+    width: 100%;
+    margin-top: 92px;
+    display: flex;
+    align-items: center;
+    padding: 40px 25px;
+    background-image: url(../img/mob_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.login_reset_modal_body{
+    display: flex;
+padding: 24px;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+}
+
+.login_reset_modal .modal-dialog {
+    width: 100%;
+    max-width: 327px;
+    margin: 0px auto;
+}
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-device-width: 950px) and (max-device-width: 998px) {}
+
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1199px) {}
+
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1348px) {
+    
+
+
+}
+
+@media only screen and (min-device-width: 1349px) and (max-device-width: 1439px) {
+
+
+
+
+}
+
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1499px) {
+
+
+}
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1699px) {
+
+}
+
+@media only screen and (min-device-width: 1700px) and (max-device-width: 1799px) {
+}
+
+@media only screen and (min-device-width: 1800px) and (max-device-width: 1919px) {}
+
+@media only screen and (min-device-width: 1920px) and (max-device-width: 1920px) {}

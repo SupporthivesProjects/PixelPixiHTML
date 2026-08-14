@@ -1,0 +1,743 @@
+/* =========================================================
+   LOGIN VARIABLES
+========================================================= */
+
+:root {
+    --login-ink: #141222;
+    --login-slate: #4C4A5C;
+    --login-lilac: #ECE8F2;
+    --login-pink: #EE2A63;
+    --login-white: #FFFFFF;
+}
+
+
+.login_section {
+    width: 100%;
+    margin-top: 145px;
+    display: flex;
+    align-items: center;
+    padding: 96px 0 120px 0;
+    background-image: url(../img/comon_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.login_section .container {
+    width: 100%;
+}
+
+
+/* =========================================================
+   LOGIN WRAPPER
+========================================================= */
+
+.login_wrapper {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================================================
+   LOGIN CARD
+========================================================= */
+
+.login_card {
+    width: 100%;
+    max-width: 560px;
+    padding: 56px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 32px;
+
+    border-radius: 16px;
+
+    border: 1px solid var(--login-lilac);
+
+    background: var(--login-white);
+}
+
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.login_heading {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+
+.login_title {
+    margin: 0;
+
+    color: var(--login-ink);
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+
+    letter-spacing: -0.56px;
+}
+
+
+.login_description {
+    margin: 0;
+
+    color: var(--login-slate);
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+/* =========================================================
+   FORM
+========================================================= */
+
+.login_form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+
+/* =========================================================
+   INPUT FIELD
+========================================================= */
+
+.login_field {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+
+.login_label {
+    color: var(--login-slate);
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+.login_input {
+    width: 100%;
+    height: 55px;
+
+    padding: 16px 20px;
+
+    border-radius: 8px;
+
+    border: 1px solid var(--login-lilac);
+
+    background: var(--login-white);
+
+    color: var(--login-slate);
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    outline: none;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.login_input::placeholder {
+    color: var(--login-slate);
+    opacity: 1;
+}
+
+
+.login_input:focus {
+border-radius: var(--radius-s, 8px);
+border: 1.5px solid var(--brand-ink, #141222);
+background: var(--base-white, #FFF);
+}
+
+
+.login_options {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+
+.login_remember {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    margin: 0;
+color: var(--brand-slate, #4C4A5C);
+font-family: "Plus Jakarta Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 22.5px */
+
+    cursor: pointer;
+}
+
+
+.login_checkbox {
+    width: 20px;
+    height: 20px;
+
+    margin: 0;
+
+    appearance: none;
+
+    border: 1px solid var(--login-lilac);
+    border-radius: 3px;
+
+    background: #FFFFFF;
+
+    cursor: pointer;
+
+    position: relative;
+}
+
+
+.login_checkbox:checked {
+    border-color: var(--login-pink);
+
+    background: var(--login-pink);
+}
+
+
+.login_checkbox:checked::after {
+    content: "";
+
+    position: absolute;
+
+    left: 7px;
+    top: 4px;
+
+    width: 5px;
+    height: 9px;
+
+    border-right: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+
+    transform: rotate(45deg);
+}
+
+
+.login_forgot {
+color: var(--brand-pink, #EE2A63);
+font-family: "Plus Jakarta Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 22.5px */
+
+    text-decoration: none;
+}
+
+
+.login_forgot:hover {
+    color: var(--login-pink);
+    text-decoration: underline;
+}
+
+
+
+/* =========================================================
+   SIGN IN BUTTON
+========================================================= */
+
+.login_button {
+    width: 100%;
+
+    min-height: 57px;
+
+    padding: 16px 28px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    border: 0;
+
+    border-radius: 8px;
+
+    background: var(--login-pink);
+
+    color: var(--login-white);
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+.login_button:hover {
+border-radius: var(--radius-s, 8px);
+background: var(--brand-ink, #141222);}
+
+
+
+
+.login_button_arrow {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.login_button_arrow svg {
+    display: block;
+}
+
+
+/* HOVER */
+
+.login_button:hover {
+    background: var(--brand-ink, #141222);
+}
+
+.login_button:hover .login_button_arrow {
+    color: var(--brand-pink, #EE2A63);
+}
+
+
+
+
+
+
+.login_create {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+}
+
+
+.login_create_text {
+color: var(--brand-slate, #4C4A5C);
+font-family: "Plus Jakarta Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 22.5px */
+}
+
+
+.login_create_link {
+    color: var(--login-pink);
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+
+    text-decoration: none;
+}
+
+
+.login_create_link:hover {
+    color: var(--login-pink);
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   TERMS & CONDITIONS
+========================================= */
+
+.login_terms {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+    margin: 12px 0px;
+}
+
+
+.login_terms_checkbox {
+    width: 20px;
+    height: 20px;
+
+    flex: 0 0 20px;
+
+    margin: 0;
+
+    appearance: none;
+
+    border: 1px solid #ECE8F2;
+    border-radius: 6px;
+
+    background: #FFFFFF;
+
+    cursor: pointer;
+
+    position: relative;
+}
+
+
+/* Checked */
+
+.login_terms_checkbox:checked {
+    background: #EE2A63;
+    border-color: #EE2A63;
+}
+
+
+.login_terms_checkbox:checked::after {
+    content: "";
+
+    position: absolute;
+
+    left: 7px;
+    top: 4px;
+
+    width: 5px;
+    height: 9px;
+
+    border-right: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+
+    transform: rotate(45deg);
+}
+
+
+/* Text */
+
+.login_terms_label {
+    margin: 0;
+
+    color: #4C4A5C;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    cursor: pointer;
+}
+
+
+/* Links */
+
+.login_terms_link {
+    color: #EE2A63;
+
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+
+.login_terms_link:hover {
+    color: #EE2A63;
+}
+
+/* Register */
+
+.regi_section {
+    width: 100%;
+    margin-top: 145px;
+    display: flex;
+    align-items: center;
+    padding: 96px 0 120px 0;
+    background-image: url(../img/comon_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recpatcha{
+    margin: 12px 0px;
+}
+
+
+/* MODAL */
+
+/* =========================================================
+   RESET PASSWORD MODAL
+========================================================= */
+
+.login_reset_modal .modal-dialog {
+    width: 100%;
+    max-width: 520px;
+
+    margin: 1.75rem auto;
+}
+
+
+/* =========================================================
+   MODAL CONTENT
+========================================================= */
+
+.login_reset_modal_content {
+    border-radius: 16px;
+
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+
+    background: var(--base-white, #FFFFFF);
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   MODAL BODY
+========================================================= */
+
+.login_reset_modal_body {
+    width: 100%;
+
+    padding: 48px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 24px;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   SUCCESS ICON
+========================================================= */
+
+.login_reset_success_icon {
+padding: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login_reset_success_icon svg {
+    display: block;
+}
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.login_reset_modal_title {
+    margin: 0;
+color: var(--brand-ink, #141222);
+text-align: center;
+font-family: "Plus Jakarta Sans";
+font-size: 22px;
+font-style: normal;
+font-weight: 800;
+line-height: 130%; /* 28.6px */
+letter-spacing: -0.22px;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.login_reset_modal_description {
+    width: 100%;
+
+    max-width: 420px;
+
+    margin: 0 0;
+color: var(--brand-slate, #4C4A5C);
+text-align: center;
+
+/* body/small */
+font-family: "Plus Jakarta Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 22.5px */
+}
+
+
+.login_reset_email {
+    color: var(--brand-slate, #4C4A5C);
+}
+
+
+/* =========================================================
+   BACK TO SIGN IN
+========================================================= */
+
+.login_reset_back_button {
+    width: 100%;
+
+    min-height: 52px;
+
+    padding: 16px 28px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    border: 0;
+
+    border-radius: 8px;
+
+    background: var(--brand-pink, #EE2A63);
+
+    color: var(--base-white, #FFFFFF);
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+
+    cursor: pointer;
+
+    transition: background 0.2s ease;
+}
+
+
+.login_reset_back_button:hover {
+    background: #141222;
+}
+
+
+.login_reset_back_arrow {
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+
+.login_reset_back_button:hover .login_reset_back_arrow {
+        color: var(--brand-pink, #EE2A63);
+
+}
+
+
+/* =========================================================
+   RESEND
+========================================================= */
+
+.login_reset_resend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    margin: 0px;
+color: var(--brand-slate, #4C4A5C);
+font-family: "Plus Jakarta Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 22.5px */
+}
+
+
+.login_reset_resend_button {
+    padding: 0;
+
+    border: 0;
+
+    background: transparent;
+color: var(--brand-pink, #EE2A63);
+font-family: "Plus Jakarta Sans";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 22.5px */
+    cursor: pointer;
+}
+
+
+.login_reset_resend_button svg {
+    display: block;
+}
+
+
+/* HOVER */
+
+.login_reset_resend_button:hover {
+    background: var(--brand-ink, #141222);
+}
+
+.login_reset_resend_button:hover .login_reset_back_arrow {
+    color: var(--brand-pink, #EE2A63);
+}
+
+
+/* =========================================================
+   REMOVE BOOTSTRAP DEFAULT CLOSE / FOCUS STYLES
+========================================================= */
+
+.login_reset_modal .modal-content {
+    box-shadow: none;
+}
+
+
+.login_reset_modal .modal-dialog {
+    outline: none;
+}
+
+
+.login_reset_modal button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+
