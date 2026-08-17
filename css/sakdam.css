@@ -1,0 +1,1791 @@
+.mobile_none_sk {
+    display: block;
+}
+
+.desktop_none_sk {
+    display: none;
+}
+
+.oneon1_outer {
+    background-image: url(../img/1on1_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 145px;
+    padding: 96px 0px;
+}
+
+.oneon1_inner {
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oneon1_p {
+    color: var(--brand-pink, #EE2A63);
+
+    /* body / eyebrow */
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 16.8px */
+    letter-spacing: 0.96px;
+    margin-bottom: 0%;
+}
+
+.oneon1head {
+    color: var(--base-white, #FFF);
+    text-align: center;
+
+    /* heading/display */
+    font-family: "Plus Jakarta Sans";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 76.8px */
+    letter-spacing: -1.28px;
+    margin-bottom: 0%;
+}
+
+.oneon1_p2 {
+    color: var(--base-white, #FFF);
+    text-align: center;
+
+    /* body/large */
+    font-family: "Plus Jakarta Sans";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 28.5px */
+    margin-bottom: 0%;
+    width: 700px;
+}
+
+.oneon1_price {
+    color: var(--brand-pink, #EE2A63);
+    text-align: center;
+
+    /* heading / h5 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 28.6px */
+    letter-spacing: -0.22px;
+    margin-bottom: 0%;
+}
+
+.oneon1_btn {
+    display: flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: var(--radius-s, 8px);
+    background: var(--brand-pink, #EE2A63);
+    color: var(--base-white, #FFF);
+    align-items: flex-start;
+    /* button / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+    transition: all 0.5s ease;
+}
+
+.oneon1_btn:hover {
+    display: inline-flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: var(--radius-s, 8px);
+    background: var(--brand-ink, #141222);
+    color: var(--base-white, #FFF);
+
+    /* button / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+}
+
+.oneon1_btn:hover svg path {
+    stroke: #EE2A63;
+}
+
+.oneon1_outer2 {
+    display: flex;
+    padding: 96px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    background: var(--base-white, #FFF);
+}
+
+.oneon1_inner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.oneon1_2_p {
+    color: var(--brand-pink, #EE2A63);
+
+    /* body / eyebrow */
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 16.8px */
+    letter-spacing: 0.96px;
+    margin-bottom: 0%;
+}
+
+.oneon1_2_p2 {
+    color: var(--brand-ink, #141222);
+    text-align: center;
+
+    /* heading / h2 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    /* 55px */
+    letter-spacing: -0.88px;
+    margin-bottom: 0%;
+}
+
+.oneone1_2_p3 {
+    color: var(--brand-slate, #4C4A5C);
+    text-align: center;
+
+    /* body/large */
+    font-family: "Plus Jakarta Sans";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 28.5px */
+    margin-bottom: 0%;
+    width: 860px;
+}
+
+.oneon1_outer3 {
+    display: flex;
+    padding: 96px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+    background-color: #FCF9F6;
+}
+
+.oneon1_inner3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.oneon1_3_p {
+    color: var(--brand-pink, #EE2A63);
+
+    /* body / eyebrow */
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 16.8px */
+    letter-spacing: 0.96px;
+    margin-bottom: 0%;
+}
+
+.oneon1_3_p2 {
+    color: var(--brand-ink, #141222);
+
+    /* heading / h3 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    /* 45px */
+    letter-spacing: -0.72px;
+    margin-bottom: 0%;
+}
+
+.oneon1_3_main {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.oneon1_3_box {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+    border-radius: var(--radius-s, 8px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+    align-self: stretch;
+}
+
+.oneon1_3_box_div {
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    border-radius: var(--radius-s, 8px);
+    background: var(--brand-pink-tint, #FDEAEF);
+    color: var(--brand-pink, #EE2A63);
+
+    /* body / label */
+    font-family: "Plus Jakarta Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 13.2px */
+    letter-spacing: 0.66px;
+}
+
+.oneon1_3_box_div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.oneon1_3_box_p {
+    color: var(--brand-ink, #141222);
+    text-align: center;
+
+    /* heading / h6 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: -0.2px;
+    margin-bottom: 0%;
+}
+
+.oneon1_3_box_p2 {
+    color: var(--brand-slate, #4C4A5C);
+    text-align: center;
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 0%;
+    width: 378px;
+}
+
+.oneon1_outer4 {
+    display: flex;
+}
+
+.oneon1_inner4 {
+    display: flex;
+    padding: 96px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    background-color: #000000;
+}
+
+.oneon1_4_main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.oneon1_4_p {
+    color: var(--brand-pink, #EE2A63);
+
+    /* body / eyebrow */
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 16.8px */
+    letter-spacing: 0.96px;
+    margin-bottom: 0%;
+}
+
+.oneon1_4_p2 {
+    color: var(--base-white, #FFF);
+
+    /* heading / h3 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    /* 45px */
+    letter-spacing: -0.72px;
+    margin-bottom: 0%;
+}
+
+.oneon1_4_p3 {
+    color: var(--base-white, #FFF);
+
+    /* body / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 25.5px */
+    margin-bottom: 0%;
+}
+
+.oneon1_4_img {
+    width: 50%;
+}
+
+.oneon1_outer5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.oneon1_inner5 {
+    display: flex;
+    padding: 96px 96px 96px 240px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    background-color: #FFF;
+    margin-left: auto;
+}
+
+.oneon1_5_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.oneon1_5_p {
+    color: var(--brand-pink, #EE2A63);
+
+    /* body / eyebrow */
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 16.8px */
+    letter-spacing: 0.96px;
+    margin-bottom: 0%;
+}
+
+.oneon1_5_p2 {
+    color: var(--brand-ink, #141222);
+
+    /* heading / h3 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    /* 45px */
+    letter-spacing: -0.72px;
+    margin-bottom: 0%;
+}
+
+.oneon1_5_p3 {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 25.5px */
+    margin-bottom: 0%;
+}
+
+.oneon1_5_div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.oneon1_5_input_div {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.oneon1_5_input {
+    display: flex;
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: var(--radius-s, 8px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+    width: 100%;
+}
+
+.oneon1_5_input::placeholder {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.oneon1_5_check.form-check-input:checked {
+    background-color: #EE2A63;
+    border-color: #EE2A63;
+}
+
+.oneon1_5_label {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.oneon1_5_label a {
+    color: var(--brand-pink, #EE2A63);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.oneon1_5_btn {
+    display: flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: var(--radius-s, 8px);
+    background: var(--brand-pink, #EE2A63);
+    color: var(--base-white, #FFF);
+
+    /* button / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+}
+
+.oneon1_5_btn:hover {
+    display: inline-flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: var(--radius-s, 8px);
+    background: var(--brand-ink, #141222);
+    color: var(--base-white, #FFF);
+
+    /* button / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+}
+
+.oneon1_5_btn:hover svg path {
+    stroke: #EE2A63;
+}
+
+.oneon1_5_inner2 {
+    background-color: #FCF9F6;
+    width: 50%;
+    background-position: center;
+    display: flex;
+    background-image: url(../img/1on1_5_img.png);
+    background-size: cover;
+}
+
+.cart_outer {
+    display: flex;
+    padding: 56px 0 96px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+    margin-top: 145px;
+    background-color: #FCF9F6;
+}
+
+.cart_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+}
+
+.cart_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+}
+
+.cart_p {
+    color: var(--brand-ink, #141222);
+
+    /* heading / h2 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    /* 55px */
+    letter-spacing: -0.88px;
+    margin-bottom: 0%;
+}
+
+.cart_p2 {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/large */
+    font-family: "Plus Jakarta Sans";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 28.5px */
+    margin-bottom: 0%;
+}
+
+.cart_main {
+    display: flex;
+    align-items: flex-start;
+    gap: 48px;
+    width: 100%;
+}
+
+.cart_main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.cart_box {
+    display: flex;
+    padding: 20px 24px 20px 20px;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: var(--radius-m, 12px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+}
+
+.cart_img {
+    width: 96px;
+    height: 72px;
+}
+
+.cart_box_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.cart_box_p {
+    color: var(--brand-ink, #141222);
+
+    /* heading / h6 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: -0.2px;
+    margin-bottom: 0%;
+}
+
+.cart_box_p2 {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 0%;
+}
+
+.cart_box_p3 {
+    color: var(--brand-pink, #EE2A63);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 0%;
+}
+
+.cart_box_price {
+    color: var(--brand-ink, #141222);
+
+    /* heading / h6 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: -0.2px;
+    margin-bottom: 0%;
+}
+
+.cart_main_div2 {
+    display: flex;
+    width: 460px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+    border-radius: var(--radius-l, 16px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+}
+
+.cart_main2_p {
+    color: var(--brand-ink, #141222);
+
+    /* heading / h5 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 28.6px */
+    letter-spacing: -0.22px;
+    margin-bottom: 0%;
+}
+
+.cart_main2_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.cart_main2_inn {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.cart_main2_inn_p {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 0%;
+}
+
+.cart_main2_inn_p2 {
+    color: var(--brand-ink, #141222);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 0%;
+}
+
+.cart_main2_inn2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.cart_main2_inn2_p {
+    color: var(--brand-pink, #EE2A63);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 0%;
+}
+
+.cart_main2_inn2_p2 {
+    color: var(--brand-pink, #EE2A63);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 0%;
+}
+
+.cart_main2_inn3 {
+    display: flex;
+    padding-top: 16px;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    border-top: 1px solid var(--brand-lilac, #ECE8F2);
+    justify-content: space-between;
+}
+
+.cart_main2_inn3_p {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* heading / h6 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: -0.2px;
+    margin-bottom: 0%;
+}
+
+.cart_main2_inn3_p2 {
+    color: var(--brand-ink, #141222);
+
+    /* heading / h6 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 28px */
+    letter-spacing: -0.2px;
+    margin-bottom: 0%;
+}
+
+.cart_main2_div2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.cart_input {
+    width: 100%;
+    display: flex;
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: var(--radius-s, 8px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+}
+
+.cart_input::placeholder {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.cart_btn_dis {
+    display: flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: var(--radius-s, 8px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    color: var(--brand-ink, #141222);
+
+    /* button / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+}
+
+.cart_btn {
+    display: flex;
+    padding: 16px 28px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: var(--radius-s, 8px);
+    background: var(--brand-pink, #EE2A63);
+    color: var(--base-white, #FFF);
+
+    /* button / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+}
+
+.cart_btn:hover {
+    display: inline-flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: var(--radius-s, 8px);
+    background: var(--brand-ink, #141222);
+    color: var(--base-white, #FFF);
+
+    /* button / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+}
+
+.cart_btn:hover svg path {
+    stroke: var(--brand-pink, #EE2A63);
+}
+
+.checkout_outer {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    border-radius: var(--radius-l, 16px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+}
+
+.checkout_p {
+    color: var(--brand-ink, #141222);
+
+    /* heading / h5 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 28.6px */
+    letter-spacing: -0.22px;
+    margin-bottom: 0%;
+}
+
+.checkout_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.checkout_input_div {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.chekout_input {
+    width: 100%;
+    display: flex;
+    padding: 16px 20px;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: var(--radius-s, 8px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+}
+
+.chekout_input::placeholder {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.checkout_p2 {
+    color: var(--brand-ink, #141222);
+
+    /* heading / h5 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 28.6px */
+    letter-spacing: -0.22px;
+    margin-bottom: 0%;
+}
+
+.checkout_input_div2 {
+    display: flex;
+    padding: 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: var(--radius-s, 8px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+    justify-content: space-between;
+}
+
+.chekout_input2 {
+    border: 0px;
+    padding: 0%;
+    background: transparent;
+}
+
+.chekout_input2::placeholder {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+}
+
+.chcekout_main2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.chcekout_main2_inn {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.chcekout_main2_inside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1 0 0;
+}
+
+.checkout_main2_p {
+    color: var(--brand-ink, #141222);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 0%;
+}
+
+.checkout_main2_p2 {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body / label */
+    font-family: "Plus Jakarta Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 13.2px */
+    letter-spacing: 0.66px;
+    margin-bottom: 0%;
+}
+
+.checkout_main2_p3 {
+    color: var(--brand-ink, #141222);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 0%;
+}
+
+.form-check-input.oneon1_5_check {
+    width: 20px;
+    height: 20px;
+}
+
+.checkout_check {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.check_complete_outer {
+    background-image: url(../img/payment_success.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 96px 0px;
+    display: flex;
+    margin-top: 145px;
+    justify-content: center;
+}
+
+.cc_inner {
+    display: flex;
+    width: 720px;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: var(--radius-l, 16px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    background: var(--base-white, #FFF);
+}
+
+.cc_p {
+    color: var(--brand-pink, #EE2A63);
+
+    /* body / eyebrow */
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 16.8px */
+    letter-spacing: 0.96px;
+    margin-bottom: 0%;
+}
+
+.cc_head {
+    color: var(--brand-ink, #141222);
+    text-align: center;
+
+    /* heading / h3 */
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 125%;
+    /* 45px */
+    letter-spacing: -0.72px;
+    margin-bottom: 0%;
+}
+
+.cc_p2 {
+    color: var(--brand-slate, #4C4A5C);
+    text-align: center;
+
+    /* body / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 25.5px */
+    margin-bottom: 0%;
+}
+
+.cc_div {
+    display: flex;
+    padding: 24px 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: var(--radius-m, 12px);
+    background: var(--brand-cream, #FCF9F6);
+}
+
+.cc_div_inn {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.cc_p3 {
+    color: var(--brand-slate, #4C4A5C);
+
+    /* body / label */
+    font-family: "Plus Jakarta Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 13.2px */
+    letter-spacing: 0.66px;
+    margin-bottom: 0%;
+}
+
+.cc_p4 {
+    color: var(--brand-ink, #141222);
+
+    /* body/small */
+    font-family: "Plus Jakarta Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 0%;
+}
+
+.cc_div_btn {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.cc_btn_r {
+    display: flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: var(--radius-s, 8px);
+    background: var(--brand-pink, #EE2A63);
+    color: var(--base-white, #FFF);
+
+    /* button / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+    transition: all 0.5s ease;
+}
+
+.cc_btn_r:hover {
+    display: inline-flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: var(--radius-s, 8px);
+    background: var(--brand-ink, #141222);
+    color: var(--base-white, #FFF);
+
+    /* button / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+
+}
+
+.cc_btn_r:hover svg path {
+    stroke: var(--brand-pink, #EE2A63);
+
+}
+
+.cc_btn_w {
+    display: flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: var(--radius-s, 8px);
+    border: 1px solid var(--brand-lilac, #ECE8F2);
+    color: var(--brand-ink, #141222);
+
+    /* button / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+    transition: all 0.5s ease;
+}
+
+.cc_btn_w:hover {
+    display: inline-flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: var(--radius-s, 8px);
+    border: 1px solid var(--brand-pink, #EE2A63);
+    background: var(--brand-pink-tint, #FDEAEF);
+    color: var(--brand-pink, #EE2A63);
+
+    /* button / regular */
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 25.2px */
+}
+
+.cc_btn_w:hover svg path {
+    stroke: var(--brand-pink, #EE2A63);
+
+}
+
+.cf_p {
+    color: var(--base-error-red, #DF3F3F);
+
+    /* body / eyebrow */
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 16.8px */
+    letter-spacing: 0.96px;
+    margin-bottom: 0%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mobile_none_sk {
+        display: none;
+    }
+
+    .desktop_none_sk {
+        display: block;
+    }
+
+    .oneon1_outer {
+        background-image: none;
+        background-color: #000000;
+        margin-top: 93px;
+        padding: 0px;
+    }
+
+    .oneon1_inner {
+        width: 100%;
+        padding: 24px 12px;
+    }
+
+    .oneon1_p {
+        font-size: 10px;
+    }
+
+    .oneon1head {
+        font-size: 40px;
+    }
+
+    .oneon1_p2 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .oneon1_outer2 {
+        padding: 32px 12px;
+        gap: 24px;
+    }
+
+    .oneon1_inner2 {
+        gap: 24px;
+    }
+
+    .oneon1_btn {
+        display: flex;
+        padding: 16px 24px;
+        align-items: flex-start;
+        gap: 8px;
+        font-size: 15px;
+    }
+
+    .oneon1_5_btn {
+        display: flex;
+        padding: 16px 24px;
+        align-items: flex-start;
+        gap: 8px;
+        font-size: 15px;
+    }
+
+    .oneon1_2_p {
+        font-size: 10px;
+    }
+
+    .oneon1_2_p2 {
+        font-size: 30px;
+    }
+
+    .oneone1_2_p3 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .oneon1_outer3 {
+        padding: 24px;
+    }
+
+    .oneon1_3_p {
+        font-size: 10px;
+    }
+
+    .oneon1_3_p2 {
+        font-size: 30px;
+    }
+
+    .oneon1_3_main {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .oneon1_3_box {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+    }
+
+    .oneon1_3_box_div2 {
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .oneon1_3_box_p {
+        font-size: 18px;
+    }
+
+    .oneon1_3_box_p2 {
+        width: 100%;
+    }
+
+    .oneon1_outer4 {
+        flex-direction: column;
+    }
+
+    .oneon1_4_img {
+        width: 100%;
+    }
+
+    .oneon1_inner4 {
+        padding: 24px;
+    }
+
+    .oneon1_4_p {
+        font-size: 10px;
+    }
+
+    .oneon1_4_p2 {
+        font-size: 30px;
+    }
+
+    .oneon1_4_p3 {
+        font-size: 16px;
+    }
+
+    .oneon1_outer5 {
+        flex-direction: column-reverse;
+        gap: 32px;
+    }
+
+    .oneon1_5_inner2 {
+        width: 100%;
+        height: 345px;
+    }
+
+    .oneon1_inner5 {
+        padding: 24px;
+    }
+
+    .oneon1_5_p {
+        font-size: 10px;
+    }
+
+    .oneon1_5_p2 {
+        font-size: 30px;
+    }
+
+    .oneon1_5_p3 {
+        font-size: 16px;
+    }
+
+    .cart_outer {
+        margin-top: 93px;
+        padding: 24px 12px;
+    }
+
+    .cart_p {
+        font-size: 30px;
+    }
+
+    .cart_p2 {
+        font-size: 16px;
+    }
+
+    .cart_main {
+        flex-direction: column;
+    }
+
+    .cart_box {
+        gap: 16px;
+    }
+
+    .cart_box_p {
+        font-size: 18px;
+    }
+
+    .cart_img {
+        width: 72px;
+        height: 56px;
+    }
+
+    .cart_box_price {
+        font-size: 18px;
+    }
+
+    .cart_main_div2 {
+        width: 100%;
+        padding: 24px;
+    }
+
+    .cart_main2_inn {
+        gap: 12px;
+        justify-content: flex-start;
+    }
+
+    .cart_main2_inn2 {
+        gap: 12px;
+        justify-content: flex-start;
+    }
+
+    .cart_main2_inn3 {
+        gap: 12px;
+        justify-content: flex-start;
+    }
+
+    .cart_main2_inn3_p {
+        font-size: 18px;
+    }
+
+    .cart_main2_inn3_p2 {
+        font-size: 18px;
+    }
+
+    .cart_btn_dis {
+        display: flex;
+        padding: 16px 24px;
+        align-items: flex-start;
+        gap: 8px;
+        border-radius: var(--radius-s, 8px);
+        border: 1px solid var(--brand-lilac, #ECE8F2);
+        color: var(--brand-ink, #141222);
+
+        /* button / mobile / regular */
+        font-family: "Plus Jakarta Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 21px */
+    }
+
+    .cart_main2_div2 {
+        gap: 16px;
+    }
+
+    .cart_input {
+        display: flex;
+        padding: 16px 20px;
+        align-items: flex-start;
+        gap: 12px;
+        align-self: stretch;
+        border-radius: var(--radius-s, 8px);
+        border: 1px solid var(--brand-lilac, #ECE8F2);
+        background: var(--base-white, #FFF);
+        width: 172px;
+    }
+
+    .cart_input::placeholder {
+        color: var(--brand-slate, #4C4A5C);
+
+        /* body/small */
+        font-family: "Plus Jakarta Sans";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 22.5px */
+        flex: 1 0 0;
+    }
+
+    .cart_btn {
+        width: 191px;
+        font-size: 15px;
+        padding: 16px 24px;
+    }
+
+    .checkout_outer {
+        padding: 40px 24px;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .checkout_inner {
+        gap: 16px;
+    }
+
+    .checkout_input_div {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .chcekout_main2_inn {
+        gap: 12px;
+    }
+
+    .check_complete_outer {
+        margin-top: 94px;
+        padding: 0px 24px;
+    }
+
+    .cc_inner {
+        width: 100%;
+        padding: 24px;
+    }
+
+    .cc_p {
+        font-size: 10px;
+        align-self: flex-start;
+    }
+
+    .cc_head {
+        font-size: 30px;
+    }
+
+    .cc_p2 {
+        font-size: 16px;
+    }
+
+    .cc_div {
+        padding: 24px;
+    }
+
+    .cc_div_btn {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cc_btn_r {
+        padding: 16px 24px;
+        gap: 8px;
+        font-size: 15px;
+    }
+
+    .cc_btn_w {
+        padding: 16px 24px;
+        gap: 8px;
+        font-size: 15px;
+    }
+
+    .cf_p {
+        font-size: 10px;
+        align-self: flex-start;
+    }
+}
+
+@media only screen and (min-width: 780px) and (max-width:991px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1151px) {
+    .oneon1_inner5 {
+        display: flex;
+        padding: 96px 20px 96px 20px;
+    }
+
+    .oneon1_3_box_p2 {
+        width: 240px;
+    }
+
+    .oneon1_5_inner2 {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1152px) and (max-width:1279px) {
+    .oneon1_inner5 {
+        display: flex;
+        padding: 96px 60px 96px 20px;
+    }
+
+    .oneon1_3_box_p2 {
+        width: 300px;
+    }
+
+    .oneon1_5_inner2 {
+        width: 60%;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width:1348px) {
+    .oneon1_inner5 {
+        display: flex;
+        padding: 96px 60px 96px 20px;
+    }
+
+    .oneon1_3_box_p2 {
+        width: 300px;
+    }
+
+    .oneon1_5_inner2 {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1349px) and (max-width:1439px) {
+    .oneon1_inner5 {
+        display: flex;
+        padding: 96px 96px 96px 20px;
+    }
+
+    .oneon1_3_box_p2 {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1440px) and (max-width:1499px) {
+    .oneon1_inner5 {
+        display: flex;
+        padding: 96px 96px 96px 20px;
+    }
+
+    .oneon1_3_box_p2 {
+        width: 350px;
+    }
+
+}
+
+@media only screen and (min-width: 1500px) and (max-width:1599px) {
+    .oneon1_inner5 {
+        display: flex;
+        padding: 96px 96px 96px 33px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width:1699px) {
+    .oneon1_inner5 {
+        display: flex;
+        padding: 96px 96px 96px 80px;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width:1799px) {
+    .oneon1_inner5 {
+        display: flex;
+        padding: 96px 96px 96px 125px;
+    }
+}
+
+@media only screen and (min-width: 1800px) and (max-width:1919px) {
+    .oneon1_inner5 {
+        display: flex;
+        padding: 96px 96px 96px 172px;
+    }
+}
