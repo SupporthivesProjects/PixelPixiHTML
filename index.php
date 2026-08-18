@@ -48,7 +48,7 @@
 <!-- Index Section 2 End -->
 
 <!-- Index Section 3 Start -->
-  <section class="home_s3">
+<section class="home_s3">
     <div class="home_c3 container">
       <div class="home_s3top">
         <div class="home_s3topleft">
@@ -121,9 +121,30 @@
 <!-- Index Section 3 End -->
 
 <!-- Index Section 4 Start -->
+ <section class="home_s4">
+  <img src="./img/home_s4img.png" class="home_s4img">
+  <div class="home_s4contentbar">
+    <label class="home_s4label">OUR STORY</label>
+    <h1 class="home_s4title">We built the library we wanted when <span class="home_s4titlered">we started.</span></h1>
+    <p class="home_s4subtitle">PixelPixi is two developers. We spent years answering the same questions from people who had followed a tutorial to the letter and still ended up with a site that would not deploy.</p>
+    <p class="home_s4subtitle">So we started making our own. eBooks, video courses, plugins and themes, complete files, honest about which parts are genuinely hard. If reading is not how you learn, book a 1 on 1 and we will share a screen instead.</p>
+    <a class="btn abt_s5btn home_s4btn" href="">Browse&nbsp;the&nbsp;shop</a>
+  </div>
+ </section>
 <!-- Index Section 4 End -->
 
 <!-- Index Section 5 Start -->
+ <section class="home_s5">
+  <div class="home_c5 container">
+    <div class="home_s5left">
+      <label class="home_s5label">1 ON 1</label>
+      <h2 class="home_s5title">Get bespoke help for a <span class="home_s5titlered">project.</span></h2>
+      <p class="home_s5subtitle">Stuck on something specific? Book an hour and we will work on your actual project, not a generic example. You share your screen, we go through your code, and you leave with the thing working and notes you can follow again next time.</p>
+      <a class="btn btn-login home_s5btn" href="">Book&nbsp;1&nbsp;on&nbsp;1</a>
+    </div>
+    <div class="home_s5right"></div>
+  </div>
+ </section>
 <!-- Index Section 5 End -->
 
 <!-- Index Section 6 Start -->
