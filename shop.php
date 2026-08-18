@@ -1,110 +1,6 @@
-<!doctype html>
-<html lang="en">
+<?php include 'includes/header.php'; ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pixelpixi</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/tg-icon.svg">
-    <link rel="stylesheet" href="uiframeworks/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="uiframeworks/css/slick.css">
-    <link rel="stylesheet" href="uiframeworks/css/slick-theme.css">
-    <link rel="stylesheet" href="css/tstyle.css">
-    <link rel="stylesheet" href="css/medhns.css">
-    <link rel="stylesheet" href="css/dhiraj.css">
-    <link rel="stylesheet" href="css/dhirajresponsive.css">
-    <link rel="stylesheet" href="css/sakch.css">
-    <link rel="stylesheet" href="css/sakdam.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/rstyle.css">
-    <link rel="stylesheet" href="uiframeworks/css/font-awesome.min.css">
-    <link rel="stylesheet" href="uiframeworks/css/animate.min.css">
-    <link rel="stylesheet" href="uiframeworks/css/aos.css" rel="stylesheet">
-    <style>
 
-    </style>
-</head>
-
-<body>
-
-    <div class="main-div">
-        <header class="header-top fixed-top" id="header-top">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container p-mo">
-                    <div class="logo-mo-div">
-                        <a class="navbar-brand" href="#">
-                            <img src="./img/logo-mo.svg" alt="" class="img-fluid d-lg-none d-md-none d-block">
-                            <img src="./img/hlogo.svg" alt="" class="img-fluid d-lg-block d-md-block d-none">
-                        </a>
-                        <div class="btn-warp-toogle">
-                            <a class="btn btn-login" href="signup.php">Shop now <img src="./img/path.svg" alt=""
-                                    class="img-fluid"></a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon" id="navbar-toggler-icon"></span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="web_design.php">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="aboutus.php">1 on 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="faq.php">Contact Us</a>
-                            </li>
-                        </ul>
-                        <div class="d-flex d-right-mo" role="search">
-                            <div class="nav-item dropdown d-currency-mo dropdown-toggle-cur">
-                                <h5>CURRENCY</h5>
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    USD $
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item active" href="#">GBP £</a></li>
-                                    <li><a class="dropdown-item" href="#">GBP £</a></li>
-                                    <li><a class="dropdown-item" href="#">GBP £</a></li>
-                                </ul>
-                            </div>
-                            <div class="cart-user">
-                                <div class="cart-arrow-div">
-                                    <div class="cart-count">10</div>
-                                    <a class="cart-arrow" href="signup.php">
-                                        <img src="./img/cart.svg" alt="" class="img-fluid d-lg-block d-md-none d-none">
-                                        <div class="d-flex d-lg-none d-md-flex">
-                                            <img src="./img/cart2.svg" alt="" class="img-fluid">
-                                            <h6>Basket</h6>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="user-arrow-div">
-                                    <a class="user-cart-arrow" href="signup.php">
-                                        <img src="./img/account.svg" alt=""
-                                            class="img-fluid d-lg-block d-md-none d-none">
-                                        <div class="d-flex d-lg-none d-md-flex">
-                                            <img src="./img/account2.svg" alt="" class="img-fluid">
-                                            <h6>My account</h6>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <a class="btn btn-login" href="signup.php">Shop now <img src="./img/path.svg" alt=""
-                                    class="img-fluid"></a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
 
 
 
@@ -493,393 +389,236 @@
             </div>
         </section>
 
-        <footer class="footer-bg">
-            <div class="container p-mo">
-                <div class="col">
-                    <div class="row footer-top">
-                        <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                            <div class="footer-left">
-                                <div class="footer-logo">
-                                    <img src="./img/logos.svg" alt="" class="img-fluid">
-                                </div>
-                                <p>
-                                    Web development eBooks, courses, software and 1 on 1 mentoring from
-                                    two developers who would rather show you the whole file.
-                                </p>
-                                <div>
-                                    <img src="./img/payment-logos.svg" alt="" class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-8 col-md-12 col-sm-12 col-12">
-                            <div class="footer-right">
-                                <div class="footer-menu">
-                                    <h5>INFORMATION</h5>
-                                    <ul>
-                                        <li>
-                                            <a href="#">About Us</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">1 on 1</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Shop</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="footer-menu">
-                                    <h5>HELPFUL LINKS</h5>
-                                    <ul>
-                                        <li>
-                                            <a href="#">FAQ</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Terms & Conditions</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Privacy Policy</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">My Account</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="footer-menu">
-                                    <h5>COMPANY DETAILS</h5>
-                                    <ul>
-                                        <li>
-                                            <a href="#">PixelPixi Ltd</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">128 Fore Street</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Exeter</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Devon EX4 3AN</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">United Kingdom</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container p-mo">
-                <div class="col">
-                    <div class="row footer-bottom">
-                        <div class="col-lg-6 col-md-6 col-12 col-sm-12">
-                            <p>© 2026 Blueforgebranding.</p>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12 col-sm-12">
-                            <ul>
-                                <li>
-                                    <a href="tc.php">Terms & conditions</a>
-                                </li>
-                                <li>
-                                    <a href="pp.php">Privacy policy</a>
-                                </li>
-                                <li>
-                                    <a href="pp.php">Cookies</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<?php include 'includes/footer.php'; ?>
 
-        </footer>
-    </div>
-    <script src="uiframeworks/js/jquery.min.js"></script>
-    <script src="uiframeworks/js/bootstrap.bundle.min.js"></script>
-    <script src="uiframeworks/js/popper.min.js"></script>
-    <script src="uiframeworks/js/slick.js"></script>
-    <script src="uiframeworks/js/owl.carousel.js"></script>
-    <script src="uiframeworks/js/swiper-bundle.min.js"></script>
-    <script src="uiframeworks/js/flickity.pkgd.min.js"></script>
-    <script src="uiframeworks/js/aos.js"></script>
-    <script src="./uiframeworks/js/home-js.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".navbar-toggler").click(function () {
-                $(this).toggleClass("is-active");
-                $("header").toggleClass("header-is-active");
 
-                let logo = $("#logo");
-                if (logo.attr("src") === "./img/logo.svg") {
-                    logo.attr("src", "./img/logo.svg");
-                } else {
-                    logo.attr("src", "./img/logo.svg");
+
+
+
+
+
+
+
+<script>
+    document.querySelectorAll('.custom-dropdown_t').forEach(dropdown => {
+
+        const toggle = dropdown.querySelector('.dropdown-toggle-custom_t');
+        const selected = dropdown.querySelector('.dropdown-selected_t');
+        const options = dropdown.querySelectorAll('.dropdown-option_t');
+
+        toggle.addEventListener('click', function (e) {
+            e.stopPropagation();
+
+            document.querySelectorAll('.custom-dropdown_t').forEach(other => {
+                if (other !== dropdown) {
+                    other.classList.remove('active');
                 }
             });
-        });
-    </script>
-    <script>
-        const header = document.querySelector('header');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-        });
-    </script>
-    <script>
-        const dropdownBtns = document.querySelectorAll(
-            '.dropdown-toggle-cur, .dropdown-toggle-cart'
-        );
 
-        function updateOverlay() {
-            const anyOpen =
-                document.querySelector('.dropdown-menu.show') !== null;
-
-            document.body.classList.toggle('dropdown-open', anyOpen);
-        }
-
-        dropdownBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                setTimeout(updateOverlay, 50);
-            });
+            dropdown.classList.toggle('active');
         });
 
-        document.addEventListener('click', () => {
-            setTimeout(updateOverlay, 50);
-        });
-    </script>
-
-    <script>
-        AOS.init();
-    </script>
-    <script>
-        document.querySelectorAll('.custom-dropdown_t').forEach(dropdown => {
-
-            const toggle = dropdown.querySelector('.dropdown-toggle-custom_t');
-            const selected = dropdown.querySelector('.dropdown-selected_t');
-            const options = dropdown.querySelectorAll('.dropdown-option_t');
-
-            toggle.addEventListener('click', function (e) {
+        options.forEach(option => {
+            option.addEventListener('click', function (e) {
                 e.stopPropagation();
 
-                document.querySelectorAll('.custom-dropdown_t').forEach(other => {
-                    if (other !== dropdown) {
-                        other.classList.remove('active');
-                    }
+                selected.textContent = this.textContent;
+
+                options.forEach(item => {
+                    item.classList.remove('selected');
                 });
 
-                dropdown.classList.toggle('active');
-            });
+                this.classList.add('selected');
 
-            options.forEach(option => {
-                option.addEventListener('click', function (e) {
-                    e.stopPropagation();
-
-                    selected.textContent = this.textContent;
-
-                    options.forEach(item => {
-                        item.classList.remove('selected');
-                    });
-
-                    this.classList.add('selected');
-
-                    dropdown.classList.remove('active');
-                });
-            });
-        });
-
-        document.addEventListener('click', function () {
-            document.querySelectorAll('.custom-dropdown_t').forEach(dropdown => {
                 dropdown.classList.remove('active');
             });
         });
-    </script>
-    <script>
-        const filterButton_t = document.getElementById('filterButton_t');
-        const filterDropdown_t = document.getElementById('filterDropdown_t');
+    });
 
-        filterButton_t.addEventListener('click', function () {
-            filterDropdown_t.classList.toggle('active');
+    document.addEventListener('click', function () {
+        document.querySelectorAll('.custom-dropdown_t').forEach(dropdown => {
+            dropdown.classList.remove('active');
         });
-    </script>
-    <script>
-        const minRange_t = document.getElementById("minRange_t");
-        const maxRange_t = document.getElementById("maxRange_t");
+    });
+</script>
+<script>
+    const filterButton_t = document.getElementById('filterButton_t');
+    const filterDropdown_t = document.getElementById('filterDropdown_t');
 
-        const minPrice_t = document.getElementById("minPrice_t");
-        const maxPrice_t = document.getElementById("maxPrice_t");
+    filterButton_t.addEventListener('click', function () {
+        filterDropdown_t.classList.toggle('active');
+    });
+</script>
+<script>
+    const minRange_t = document.getElementById("minRange_t");
+    const maxRange_t = document.getElementById("maxRange_t");
 
-        const sliderRange_t = document.getElementById("sliderRange_t");
+    const minPrice_t = document.getElementById("minPrice_t");
+    const maxPrice_t = document.getElementById("maxPrice_t");
 
-        const MIN_VALUE_t = 1;
-        const MAX_VALUE_t = 100;
+    const sliderRange_t = document.getElementById("sliderRange_t");
 
-
-
-        function updateSlider_t(updateInputs = true) {
-
-            const min = Number(minRange_t.value);
-            const max = Number(maxRange_t.value);
-
-            const minPercent =
-                ((min - MIN_VALUE_t) /
-                    (MAX_VALUE_t - MIN_VALUE_t)) * 100;
-
-            const maxPercent =
-                ((max - MIN_VALUE_t) /
-                    (MAX_VALUE_t - MIN_VALUE_t)) * 100;
-
-            sliderRange_t.style.left =
-                `calc(${minPercent}% + 8px)`;
-
-            sliderRange_t.style.width =
-                `calc(${maxPercent - minPercent}% - 8px)`;
+    const MIN_VALUE_t = 1;
+    const MAX_VALUE_t = 100;
 
 
-            if (updateInputs) {
-                minPrice_t.value = min;
-                maxPrice_t.value = max;
-            }
+
+    function updateSlider_t(updateInputs = true) {
+
+        const min = Number(minRange_t.value);
+        const max = Number(maxRange_t.value);
+
+        const minPercent =
+            ((min - MIN_VALUE_t) /
+                (MAX_VALUE_t - MIN_VALUE_t)) * 100;
+
+        const maxPercent =
+            ((max - MIN_VALUE_t) /
+                (MAX_VALUE_t - MIN_VALUE_t)) * 100;
+
+        sliderRange_t.style.left =
+            `calc(${minPercent}% + 8px)`;
+
+        sliderRange_t.style.width =
+            `calc(${maxPercent - minPercent}% - 8px)`;
+
+
+        if (updateInputs) {
+            minPrice_t.value = min;
+            maxPrice_t.value = max;
+        }
+    }
+
+
+    minRange_t.addEventListener("input", () => {
+
+        let value = Number(minRange_t.value);
+        const max = Number(maxRange_t.value);
+
+        if (value >= max) {
+            value = max - 1;
+            minRange_t.value = value;
         }
 
+        minPrice_t.value = value;
 
-        minRange_t.addEventListener("input", () => {
-
-            let value = Number(minRange_t.value);
-            const max = Number(maxRange_t.value);
-
-            if (value >= max) {
-                value = max - 1;
-                minRange_t.value = value;
-            }
-
-            minPrice_t.value = value;
-
-            updateSlider_t(false);
-        });
+        updateSlider_t(false);
+    });
 
 
-        maxRange_t.addEventListener("input", () => {
+    maxRange_t.addEventListener("input", () => {
 
-            let value = Number(maxRange_t.value);
-            const min = Number(minRange_t.value);
+        let value = Number(maxRange_t.value);
+        const min = Number(minRange_t.value);
 
-            if (value <= min) {
-                value = min + 1;
-                maxRange_t.value = value;
-            }
-
-            maxPrice_t.value = value;
-
-            updateSlider_t(false);
-        });
-
-
-
-
-        minPrice_t.addEventListener("input", () => {
-
-            if (minPrice_t.value === "") {
-                return;
-            }
-
-            let value = Number(minPrice_t.value);
-            const max = Number(maxRange_t.value);
-
-            value = Math.max(
-                MIN_VALUE_t,
-                Math.min(MAX_VALUE_t, value)
-            );
-
-            if (value >= max) {
-                value = max - 1;
-            }
-
-            minPrice_t.value = value;
-            minRange_t.value = value;
-
-            updateSlider_t(false);
-        });
-
-
-
-        maxPrice_t.addEventListener("input", () => {
-
-            if (maxPrice_t.value === "") {
-                return;
-            }
-
-            let value = Number(maxPrice_t.value);
-            const min = Number(minRange_t.value);
-
-            // Limit 1 → 100
-            value = Math.max(
-                MIN_VALUE_t,
-                Math.min(MAX_VALUE_t, value)
-            );
-
-            // Max must be greater than Min
-            if (value <= min) {
-                value = min + 1;
-            }
-
-            maxPrice_t.value = value;
+        if (value <= min) {
+            value = min + 1;
             maxRange_t.value = value;
+        }
 
-            updateSlider_t(false);
-        });
+        maxPrice_t.value = value;
+
+        updateSlider_t(false);
+    });
 
 
 
-        minPrice_t.addEventListener("blur", () => {
 
-            if (minPrice_t.value === "") {
-                minPrice_t.value = minRange_t.value;
-                return;
-            }
+    minPrice_t.addEventListener("input", () => {
 
-            let value = Number(minPrice_t.value);
-            const max = Number(maxRange_t.value);
+        if (minPrice_t.value === "") {
+            return;
+        }
 
-            value = Math.max(
-                MIN_VALUE_t,
-                Math.min(max - 1, value)
-            );
+        let value = Number(minPrice_t.value);
+        const max = Number(maxRange_t.value);
 
-            minPrice_t.value = value;
-            minRange_t.value = value;
+        value = Math.max(
+            MIN_VALUE_t,
+            Math.min(MAX_VALUE_t, value)
+        );
 
-            updateSlider_t(false);
-        });
+        if (value >= max) {
+            value = max - 1;
+        }
 
-        maxPrice_t.addEventListener("blur", () => {
+        minPrice_t.value = value;
+        minRange_t.value = value;
 
-            if (maxPrice_t.value === "") {
-                maxPrice_t.value = maxRange_t.value;
-                return;
-            }
+        updateSlider_t(false);
+    });
 
-            let value = Number(maxPrice_t.value);
-            const min = Number(minRange_t.value);
 
-            value = Math.max(
-                min + 1,
-                Math.min(MAX_VALUE_t, value)
-            );
 
-            maxPrice_t.value = value;
-            maxRange_t.value = value;
+    maxPrice_t.addEventListener("input", () => {
 
-            updateSlider_t(false);
-        });
+        if (maxPrice_t.value === "") {
+            return;
+        }
 
-        updateSlider_t();
-    </script>
-</body>
+        let value = Number(maxPrice_t.value);
+        const min = Number(minRange_t.value);
 
-</html>
+        // Limit 1 → 100
+        value = Math.max(
+            MIN_VALUE_t,
+            Math.min(MAX_VALUE_t, value)
+        );
+
+        // Max must be greater than Min
+        if (value <= min) {
+            value = min + 1;
+        }
+
+        maxPrice_t.value = value;
+        maxRange_t.value = value;
+
+        updateSlider_t(false);
+    });
+
+
+
+    minPrice_t.addEventListener("blur", () => {
+
+        if (minPrice_t.value === "") {
+            minPrice_t.value = minRange_t.value;
+            return;
+        }
+
+        let value = Number(minPrice_t.value);
+        const max = Number(maxRange_t.value);
+
+        value = Math.max(
+            MIN_VALUE_t,
+            Math.min(max - 1, value)
+        );
+
+        minPrice_t.value = value;
+        minRange_t.value = value;
+
+        updateSlider_t(false);
+    });
+
+    maxPrice_t.addEventListener("blur", () => {
+
+        if (maxPrice_t.value === "") {
+            maxPrice_t.value = maxRange_t.value;
+            return;
+        }
+
+        let value = Number(maxPrice_t.value);
+        const min = Number(minRange_t.value);
+
+        value = Math.max(
+            min + 1,
+            Math.min(MAX_VALUE_t, value)
+        );
+
+        maxPrice_t.value = value;
+        maxRange_t.value = value;
+
+        updateSlider_t(false);
+    });
+
+    updateSlider_t();
+</script>
