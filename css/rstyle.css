@@ -405,6 +405,7 @@
 .home_s1btn, .home_s1btn:hover{
     padding: 24px 36px;
     margin: 0px;
+    max-width: max-content;
 }
 .home_s1label{
     display: flex;
@@ -731,6 +732,7 @@
     margin: 0px;
     font-size: 16px !important;
     height: 46px;
+    width: max-content;
 }
 .home_s4{
     padding: 0px;
@@ -792,15 +794,6 @@
 .home_s4btn{
     color: #141222;
 }
-
-
-
-
-
-
-
-
-
 .home_s5{
     padding: 217px 0px;
     background-image: url(../img/home_s5bg.png);
@@ -863,6 +856,9 @@
 .home_s5btn, .home_s5btn:hover{
     padding: 16px 28px;
     margin: 0px;
+    width: max-content;
+    font-size: 14px;
+    height: 47px;
 }
 .home_s6{
     padding: 0px;
@@ -1089,6 +1085,178 @@
         font-size: 15px;
     }
     /* About Us End */
+    /* HomePage Start */
+    .home_s6{
+        flex-direction: column;
+    }
+    .home_c6outer{
+        position: relative;
+        background-color: #211E39;
+        top: unset;
+        transform: unset;
+    }
+    .home_s6right{
+        width: 100%;
+        height: 300px;
+    }
+    .home_c6{
+        padding: 0px;
+    }
+    .home_c6left{
+        padding: 24px;
+        gap: 20px;
+        width: 100%;
+    }
+    .home_c6title{
+        font-size: 30px;
+    }
+    .home_c6subtitle{
+        font-size: 16px;
+    }
+    .home_s5{
+        background: #FFF;
+        padding: 0px;
+    }
+    .home_c5{
+        flex-direction: column-reverse;
+        padding: 0px;
+        gap: 20px;
+    }
+    .home_s5left{
+        width: 100%;
+        padding: 0px 24px 8px 24px;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    .home_s5title{
+        font-size: 30px;
+    }
+    .home_s5titlered{
+        font-size: 30px;
+    }
+    .home_s5subtitle{
+        font-size: 17px;
+    }
+    .home_s5label{
+        font-size: 11px;
+    }
+    .home_s4{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .home_s4img{
+        width: 100%;
+    }
+    .home_s4contentbar{
+        width: 100%;
+        padding: 24px;
+        gap: 20px;
+    }
+    .home_s4label{
+        font-size: 11px;
+    }
+    .home_s4title{
+        font-size: 32px;
+    }
+    .home_s4titlered{
+        font-size: 32px;
+    }
+    .home_s3{
+        padding: 40px 0px;
+        background-image: url(../img/home_s3bgmob.png);
+    }
+    .home_c3{
+        padding: 0px 24px;
+        gap: 32px;
+    }
+    .home_s3bottom{
+        flex-direction: column;
+    }
+    .home_s3top{
+        flex-direction: column;
+        gap: 24px;
+        align-items: flex-start;
+    }
+    .home_s3label{
+        font-size: 11px;
+    }
+    .home_s3title{
+        font-size: 30px;
+    }
+    .home_s3titlered{
+        font-size: 30px;
+    }
+    .home_s3subtitle{
+        font-size: 15px;
+    }
+    .home_s3topleft{
+        gap: 12px;
+    }
+    .home_s2{
+        padding: 0px 24px;
+    }
+    .home_c2{
+        padding: 24px;
+        flex-direction: column;
+    }
+    .home_s2left{
+        width: 100%;
+        border-radius: 16px;
+        padding: 24px;
+        gap: 24px;
+    }
+    .home_s2right{
+        width: 100%;
+        flex-direction: column;
+        padding: 24px;
+        gap: 32px;
+        border-radius: 16px;
+    }
+    .home_s2card{
+        gap: 16px;
+    }
+    .home_s2cardtitle{
+        font-size: 18px;
+    }
+    .home_s2leftlabel{
+        font-size: 11px;
+    }
+    .home_s2lefttitle{
+        font-size: 28px;
+    }
+    .home_s2leftsubtitle{
+        font-size: 15px;
+    }
+    .home_s1{
+        background: #FCF9F6;
+        padding: 92px 0px 0px;
+    }
+    .home_c1{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .home_s1left{
+        padding: 16px 24px 24px 24px;
+        gap: 32px;
+    }
+    .home_s1lefttop{
+        gap: 24px;
+    }
+    .home_s1label{
+        font-size: 10px;
+    }
+    .home_s1title{
+        font-size: 40px;
+    }
+    .home_s1titlered{
+        font-size: 40px;
+    }
+    .home_s1subtitle{
+        font-size: 17px;
+    }
+    /* HomePage End */
 }
 
 @media screen and (min-device-width: 700px) and (max-device-width: 799px) {}

@@ -3,6 +3,7 @@
 <!-- Index Section 1 Start -->
  <section class="home_s1">
   <div class="home_c1 container">
+    <img src="./img/home_s1img.png" class="desktop_none">
     <div class="home_s1left">
       <div class="home_s1lefttop">
         <label class="home_s1label"><img src="./img/home_s1labelicon.png">PLAYFUL BY DESIGN. SERIOUS BY CODE.</label>
@@ -128,7 +129,7 @@
     <h1 class="home_s4title">We built the library we wanted when <span class="home_s4titlered">we started.</span></h1>
     <p class="home_s4subtitle">PixelPixi is two developers. We spent years answering the same questions from people who had followed a tutorial to the letter and still ended up with a site that would not deploy.</p>
     <p class="home_s4subtitle">So we started making our own. eBooks, video courses, plugins and themes, complete files, honest about which parts are genuinely hard. If reading is not how you learn, book a 1 on 1 and we will share a screen instead.</p>
-    <a class="btn abt_s5btn home_s4btn" href="">Browse&nbsp;the&nbsp;shop</a>
+    <a class="btn abt_s5btn home_s4btn" href="">Read&nbsp;our&nbsp;story</a>
   </div>
  </section>
 <!-- Index Section 4 End -->
@@ -142,7 +143,9 @@
       <p class="home_s5subtitle">Stuck on something specific? Book an hour and we will work on your actual project, not a generic example. You share your screen, we go through your code, and you leave with the thing working and notes you can follow again next time.</p>
       <a class="btn btn-login home_s5btn" href="">Book&nbsp;1&nbsp;on&nbsp;1</a>
     </div>
-    <div class="home_s5right"></div>
+    <div class="home_s5right">
+      <img src="./img/home_s5img.png" class="desktop_none">
+    </div>
   </div>
  </section>
 <!-- Index Section 5 End -->
@@ -164,7 +167,7 @@
           <p class="home_c6subtitle">Tell us what you are trying to build and where you got stuck. We will point you at the right product, or tell you honestly that you do not need one yet.</p>
           <a class="btn abt_s5btn" href="">Get&nbsp;in&nbsp;touch</a>
         </div>
-        <div class="home_c6left"></div>
+        <div class="home_c6left mobile_none"></div>
       </div>
     </div>
  </section>
